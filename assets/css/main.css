@@ -4010,13 +4010,16 @@ body.is-preload #intro .content {
   min-width: 250px;
 }
 
-#introDiv {
-  width: 90%;
+#pnpdLogo {
+  width: 600px;
+  height: auto;
+  padding-bottom: 40px;
 }
 
-#pnpdLogo {
-  width: 60%;
-  padding-bottom: 40px;
+@media (max-width: 768px) {
+  #pnpdLogo {
+    width: 80%;
+  }
 }
 
 #demoVideo {
