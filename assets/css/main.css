@@ -4024,5 +4024,7 @@ body.is-preload #intro .content {
 
 #demoVideo {
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 1px #56e4b7, 0 0 1px #56e4b7, 0 0 2px #56e4b7, 0 0 3px #56e4b7,
+    0 0 4px #56e4b7, 0 0 6px #56e4b7, 0 0 8px #56e4b7, 0 0 9px #56e4b7;
 }
